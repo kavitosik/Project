@@ -17,10 +17,10 @@
 
 .container{
 
-
     display: grid;
 
     grid-template-columns: 425px 1fr;
+
 }
 
 .logo{
@@ -37,4 +37,30 @@
 
 .menu{
     margin-top: 30px;
+}
+
+.container2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.container3{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+.my_photo{
+    height: 50px;
+    padding-left: 100px;
+}
+
+.my_photo2{
+    height: 150px;
+    padding-left: 100px;
+    border: 1px solid gainsboro;
+}
+
+.model{
+    border: 1px solid gainsboro;
 }
